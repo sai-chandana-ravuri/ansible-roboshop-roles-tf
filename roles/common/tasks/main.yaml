@@ -1,0 +1,3 @@
+- name: pre setup
+  ansible.builtin.debug:
+    msg: "Hi, Configuring {{ component }}"
